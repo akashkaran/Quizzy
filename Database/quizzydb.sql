@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 26, 2017 at 04:05 PM
+-- Generation Time: Oct 24, 2016 at 05:47 PM
 -- Server version: 10.1.16-MariaDB
--- PHP Version: 5.6.24
+-- PHP Version: 5.5.38
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -44,8 +44,7 @@ CREATE TABLE `login` (
 
 INSERT INTO `login` (`id`, `name`, `email`, `password`, `gender`, `age`, `profile`, `work`, `interests`) VALUES
 (1, 'Gaurav Suresh kavhar', 'gauravkavhar304@gmail.com', '1234', 'M', 'over_13', 'STUDENT', 'engineer', 'sports'),
-(2, 'Akash Karan', 'akashkaran@gmail.com', '1234', 'M', 'over_13', 'STUDENT', 'engineer', 'others'),
-(3, 'Amit Khaire', 'akamit@gmail.com', '1234', 'O', 'over_13', '', 'engineer', 'others');
+(2, 'Akash Karan', 'akashkaran@gmail.com', '1234', 'M', 'over_13', 'STUDENT', 'engineer', 'others');
 
 -- --------------------------------------------------------
 
@@ -144,7 +143,7 @@ ALTER TABLE `quiz`
 -- AUTO_INCREMENT for table `login`
 --
 ALTER TABLE `login`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

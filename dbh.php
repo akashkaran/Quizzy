@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost","root","","quizzydb");
+$conn = mysqli_connect("localhost","root","k","quizzydb");
  
  if (!$conn){
 	 die("Connection failed: ".mysqli_connect_error());

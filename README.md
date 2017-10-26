@@ -1,2 +1,0 @@
-# Quizzy
-Online Quiz System
